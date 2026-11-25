@@ -19,7 +19,7 @@ import os
 import sys
 from pathlib import Path
 
-from . import CONFIG, DATA
+from . import CONFIG, DATA, ROOT
 from . import headline as hl
 from .probe import load_json, nearest_slot, run_slot
 from .sources import inferencex, prices, rent
@@ -98,8 +98,15 @@ def cmd_headline(args) -> int:
     return 0
 
 
+def cmd_site(args) -> int:
+    from .site import build
+    site = build(load_json(CONFIG / "models.json"), DATA, ROOT / "docs" / "data" / "site.json", _today())
+    print(f"site data written: {len(site['breakeven'])} break-even points, prices from {site['prices_date']}")
+    return 0
+
+
 def cmd_monthly(args) -> int:
-    return cmd_inferencex(args) or cmd_rent(args) or cmd_headline(args)
+    return cmd_inferencex(args) or cmd_rent(args) or cmd_headline(args) or cmd_site(args)
 
 
 def cmd_summarize(args) -> int:
@@ -141,6 +148,7 @@ def main(argv: list[str] | None = None) -> int:
         p.set_defaults(fn=fn)
     sub.add_parser("rent").set_defaults(fn=cmd_rent)
     sub.add_parser("headline").set_defaults(fn=cmd_headline)
+    sub.add_parser("site").set_defaults(fn=cmd_site)
     p = sub.add_parser("summarize"); p.add_argument("--month", required=True, help="YYYY-MM"); p.set_defaults(fn=cmd_summarize)
     p = sub.add_parser("show-task"); p.add_argument("--type", default="T1", choices=["T1", "T2", "T3"])
     p.add_argument("--index", type=int, default=0); p.set_defaults(fn=cmd_show_task)

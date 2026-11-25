@@ -1,0 +1,447 @@
+{
+ "updated": "2026-11-25",
+ "prices_date": "2026-11-25",
+ "model": {
+  "code": "M",
+  "name": "gpt-oss-120b",
+  "price_source": "openrouter 2026-11-25"
+ },
+ "breakeven": [
+  {
+   "month": "2025-11",
+   "chip": "B200",
+   "pct": 46,
+   "rent": 5.02,
+   "revenue": 10.98,
+   "held": false
+  },
+  {
+   "month": "2025-12",
+   "chip": "B200",
+   "pct": 29,
+   "rent": 4.99,
+   "revenue": 17.21,
+   "held": false
+  },
+  {
+   "month": "2026-01",
+   "chip": "B200",
+   "pct": 30,
+   "rent": 5.17,
+   "revenue": 17.51,
+   "held": false
+  },
+  {
+   "month": "2026-02",
+   "chip": "B200",
+   "pct": 29,
+   "rent": 4.99,
+   "revenue": 17.12,
+   "held": false
+  },
+  {
+   "month": "2026-05",
+   "chip": "B200",
+   "pct": 27,
+   "rent": 5.39,
+   "revenue": 20.25,
+   "held": false
+  },
+  {
+   "month": "2026-06",
+   "chip": "B200",
+   "pct": 29,
+   "rent": 5.89,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2026-07",
+   "chip": "B200",
+   "pct": 30,
+   "rent": 6.05,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2026-08",
+   "chip": "B200",
+   "pct": 30,
+   "rent": 6.01,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2026-09",
+   "chip": "B200",
+   "pct": 33,
+   "rent": 6.71,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2026-10",
+   "chip": "B200",
+   "pct": 38,
+   "rent": 7.67,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2026-11",
+   "chip": "B200",
+   "pct": 40,
+   "rent": 8.1,
+   "revenue": 20.25,
+   "held": true
+  },
+  {
+   "month": "2025-11",
+   "chip": "H100",
+   "pct": 111,
+   "rent": 2.89,
+   "revenue": 2.61,
+   "held": false
+  },
+  {
+   "month": "2025-12",
+   "chip": "H100",
+   "pct": 102,
+   "rent": 2.81,
+   "revenue": 2.75,
+   "held": false
+  },
+  {
+   "month": "2026-01",
+   "chip": "H100",
+   "pct": 101,
+   "rent": 2.81,
+   "revenue": 2.77,
+   "held": false
+  },
+  {
+   "month": "2026-02",
+   "chip": "H100",
+   "pct": 70,
+   "rent": 2.9,
+   "revenue": 4.16,
+   "held": false
+  },
+  {
+   "month": "2026-03",
+   "chip": "H100",
+   "pct": 59,
+   "rent": 2.49,
+   "revenue": 4.2,
+   "held": false
+  },
+  {
+   "month": "2026-05",
+   "chip": "H100",
+   "pct": 65,
+   "rent": 2.72,
+   "revenue": 4.16,
+   "held": false
+  },
+  {
+   "month": "2026-06",
+   "chip": "H100",
+   "pct": 67,
+   "rent": 2.8,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2026-07",
+   "chip": "H100",
+   "pct": 72,
+   "rent": 2.99,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2026-08",
+   "chip": "H100",
+   "pct": 78,
+   "rent": 3.25,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2026-09",
+   "chip": "H100",
+   "pct": 77,
+   "rent": 3.21,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2026-10",
+   "chip": "H100",
+   "pct": 92,
+   "rent": 3.83,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2026-11",
+   "chip": "H100",
+   "pct": 98,
+   "rent": 4.07,
+   "revenue": 4.16,
+   "held": true
+  },
+  {
+   "month": "2025-11",
+   "chip": "H200",
+   "pct": 127,
+   "rent": 3.49,
+   "revenue": 2.75,
+   "held": false
+  },
+  {
+   "month": "2025-12",
+   "chip": "H200",
+   "pct": 83,
+   "rent": 3.49,
+   "revenue": 4.2,
+   "held": false
+  },
+  {
+   "month": "2026-01",
+   "chip": "H200",
+   "pct": 82,
+   "rent": 3.49,
+   "revenue": 4.26,
+   "held": false
+  },
+  {
+   "month": "2026-02",
+   "chip": "H200",
+   "pct": 81,
+   "rent": 3.46,
+   "revenue": 4.26,
+   "held": false
+  },
+  {
+   "month": "2026-03",
+   "chip": "H200",
+   "pct": 79,
+   "rent": 3.39,
+   "revenue": 4.3,
+   "held": false
+  },
+  {
+   "month": "2026-05",
+   "chip": "H200",
+   "pct": 80,
+   "rent": 3.44,
+   "revenue": 4.28,
+   "held": false
+  },
+  {
+   "month": "2026-06",
+   "chip": "H200",
+   "pct": 85,
+   "rent": 3.62,
+   "revenue": 4.28,
+   "held": true
+  },
+  {
+   "month": "2026-07",
+   "chip": "H200",
+   "pct": 90,
+   "rent": 3.86,
+   "revenue": 4.28,
+   "held": true
+  },
+  {
+   "month": "2026-08",
+   "chip": "H200",
+   "pct": 94,
+   "rent": 4.0,
+   "revenue": 4.28,
+   "held": true
+  },
+  {
+   "month": "2026-09",
+   "chip": "H200",
+   "pct": 101,
+   "rent": 4.32,
+   "revenue": 4.28,
+   "held": true
+  },
+  {
+   "month": "2026-10",
+   "chip": "H200",
+   "pct": 115,
+   "rent": 4.93,
+   "revenue": 4.28,
+   "held": true
+  },
+  {
+   "month": "2026-11",
+   "chip": "H200",
+   "pct": 114,
+   "rent": 4.88,
+   "revenue": 4.28,
+   "held": true
+  }
+ ],
+ "exchange": [
+  {
+   "month": "2025-10",
+   "chip": "B200",
+   "rate": 4.76
+  },
+  {
+   "month": "2025-11",
+   "chip": "B200",
+   "rate": 4.21
+  },
+  {
+   "month": "2025-12",
+   "chip": "B200",
+   "rate": 6.25
+  },
+  {
+   "month": "2026-01",
+   "chip": "B200",
+   "rate": 6.32
+  },
+  {
+   "month": "2026-02",
+   "chip": "B200",
+   "rate": 4.11
+  },
+  {
+   "month": "2026-05",
+   "chip": "B200",
+   "rate": 4.87
+  },
+  {
+   "month": "2025-10",
+   "chip": "H200",
+   "rate": 1.17
+  },
+  {
+   "month": "2025-11",
+   "chip": "H200",
+   "rate": 1.05
+  },
+  {
+   "month": "2025-12",
+   "chip": "H200",
+   "rate": 1.53
+  },
+  {
+   "month": "2026-01",
+   "chip": "H200",
+   "rate": 1.54
+  },
+  {
+   "month": "2026-02",
+   "chip": "H200",
+   "rate": 1.02
+  },
+  {
+   "month": "2026-03",
+   "chip": "H200",
+   "rate": 1.02
+  },
+  {
+   "month": "2026-05",
+   "chip": "H200",
+   "rate": 1.03
+  }
+ ],
+ "gain": [
+  {
+   "month": "2025-10",
+   "index": 100.0
+  },
+  {
+   "month": "2025-11",
+   "index": 114.3
+  },
+  {
+   "month": "2025-12",
+   "index": 120.7
+  },
+  {
+   "month": "2026-01",
+   "index": 121.5
+  },
+  {
+   "month": "2026-02",
+   "index": 182.6
+  },
+  {
+   "month": "2026-03",
+   "index": 184.2
+  },
+  {
+   "month": "2026-05",
+   "index": 182.4
+  }
+ ],
+ "gain_base_month": "2025-10",
+ "latest": [
+  {
+   "chip": "H100",
+   "month": "2026-11",
+   "held": true,
+   "measured_month": "2026-05",
+   "out_tps": 1572.2,
+   "revenue": 4.16,
+   "rent": 4.07,
+   "pct": 98,
+   "spread": 0.09
+  },
+  {
+   "chip": "H200",
+   "month": "2026-11",
+   "held": true,
+   "measured_month": "2026-05",
+   "out_tps": 1616.8,
+   "revenue": 4.28,
+   "rent": 4.88,
+   "pct": 114,
+   "spread": -0.6
+  },
+  {
+   "chip": "B200",
+   "month": "2026-11",
+   "held": true,
+   "measured_month": "2026-05",
+   "out_tps": 7651.5,
+   "revenue": 20.25,
+   "rent": 8.1,
+   "pct": 40,
+   "spread": 12.15
+  }
+ ],
+ "prices": [
+  {
+   "model": "Llama 3.1 8B Instruct",
+   "providers": 4,
+   "min": 0.04,
+   "median": 0.15,
+   "max": 0.22
+  },
+  {
+   "model": "gpt-oss-120b",
+   "providers": 23,
+   "min": 0.15,
+   "median": 0.6,
+   "max": 0.95
+  },
+  {
+   "model": "Llama 3.3 70B Instruct",
+   "providers": 7,
+   "min": 0.32,
+   "median": 0.71,
+   "max": 2.253
+  }
+ ]
+}

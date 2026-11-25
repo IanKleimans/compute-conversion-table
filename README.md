@@ -4,6 +4,9 @@ Measures how much finished AI work one GPU-hour produces on each chip, what that
 and how both compare with the GPU's rent. The full method is in the spec:
 [Conversion Table Spec v0.1](https://claude.ai/artifact/SJmH1eCbduMEoW1Mf8iFCe).
 
+**Public page:** https://iankleimans.github.io/compute-conversion-table/ (GitHub Pages, served from
+`docs/`; `python -m grain site` rebuilds its data file, and the scheduled workflows do this automatically).
+
 Three headline numbers per chip, every month:
 
 | Headline | What it says |
