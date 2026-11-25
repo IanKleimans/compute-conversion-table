@@ -1,0 +1,318 @@
+{
+ "source": "https://getdeploying.com/dataset/gpu-prices/weekly.csv",
+ "licence": "CC BY 4.0, GetDeploying",
+ "rows": [
+  {
+   "chip": "a100",
+   "month": "2025-11",
+   "usd_per_gpu_hour": 1.49,
+   "weeks": 1
+  },
+  {
+   "chip": "a100",
+   "month": "2025-12",
+   "usd_per_gpu_hour": 1.49,
+   "weeks": 5
+  },
+  {
+   "chip": "a100",
+   "month": "2026-01",
+   "usd_per_gpu_hour": 1.47,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-02",
+   "usd_per_gpu_hour": 1.79,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-03",
+   "usd_per_gpu_hour": 1.49,
+   "weeks": 5
+  },
+  {
+   "chip": "a100",
+   "month": "2026-04",
+   "usd_per_gpu_hour": 1.58,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-05",
+   "usd_per_gpu_hour": 1.73,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-06",
+   "usd_per_gpu_hour": 1.54,
+   "weeks": 5
+  },
+  {
+   "chip": "a100",
+   "month": "2026-07",
+   "usd_per_gpu_hour": 1.7,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-08",
+   "usd_per_gpu_hour": 1.6,
+   "weeks": 5
+  },
+  {
+   "chip": "a100",
+   "month": "2026-09",
+   "usd_per_gpu_hour": 1.6,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-10",
+   "usd_per_gpu_hour": 1.8,
+   "weeks": 4
+  },
+  {
+   "chip": "a100",
+   "month": "2026-11",
+   "usd_per_gpu_hour": 2.06,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2025-11",
+   "usd_per_gpu_hour": 5.02,
+   "weeks": 1
+  },
+  {
+   "chip": "b200",
+   "month": "2025-12",
+   "usd_per_gpu_hour": 4.99,
+   "weeks": 5
+  },
+  {
+   "chip": "b200",
+   "month": "2026-01",
+   "usd_per_gpu_hour": 5.17,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-02",
+   "usd_per_gpu_hour": 4.99,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-03",
+   "usd_per_gpu_hour": 5.25,
+   "weeks": 5
+  },
+  {
+   "chip": "b200",
+   "month": "2026-04",
+   "usd_per_gpu_hour": 5.06,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-05",
+   "usd_per_gpu_hour": 5.39,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-06",
+   "usd_per_gpu_hour": 5.89,
+   "weeks": 5
+  },
+  {
+   "chip": "b200",
+   "month": "2026-07",
+   "usd_per_gpu_hour": 6.05,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-08",
+   "usd_per_gpu_hour": 6.01,
+   "weeks": 5
+  },
+  {
+   "chip": "b200",
+   "month": "2026-09",
+   "usd_per_gpu_hour": 6.71,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-10",
+   "usd_per_gpu_hour": 7.67,
+   "weeks": 4
+  },
+  {
+   "chip": "b200",
+   "month": "2026-11",
+   "usd_per_gpu_hour": 8.1,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2025-11",
+   "usd_per_gpu_hour": 2.89,
+   "weeks": 1
+  },
+  {
+   "chip": "h100",
+   "month": "2025-12",
+   "usd_per_gpu_hour": 2.81,
+   "weeks": 5
+  },
+  {
+   "chip": "h100",
+   "month": "2026-01",
+   "usd_per_gpu_hour": 2.81,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-02",
+   "usd_per_gpu_hour": 2.9,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-03",
+   "usd_per_gpu_hour": 2.49,
+   "weeks": 5
+  },
+  {
+   "chip": "h100",
+   "month": "2026-04",
+   "usd_per_gpu_hour": 2.5,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-05",
+   "usd_per_gpu_hour": 2.72,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-06",
+   "usd_per_gpu_hour": 2.8,
+   "weeks": 5
+  },
+  {
+   "chip": "h100",
+   "month": "2026-07",
+   "usd_per_gpu_hour": 2.99,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-08",
+   "usd_per_gpu_hour": 3.25,
+   "weeks": 5
+  },
+  {
+   "chip": "h100",
+   "month": "2026-09",
+   "usd_per_gpu_hour": 3.21,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-10",
+   "usd_per_gpu_hour": 3.83,
+   "weeks": 4
+  },
+  {
+   "chip": "h100",
+   "month": "2026-11",
+   "usd_per_gpu_hour": 4.07,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2025-11",
+   "usd_per_gpu_hour": 3.49,
+   "weeks": 1
+  },
+  {
+   "chip": "h200",
+   "month": "2025-12",
+   "usd_per_gpu_hour": 3.49,
+   "weeks": 5
+  },
+  {
+   "chip": "h200",
+   "month": "2026-01",
+   "usd_per_gpu_hour": 3.49,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-02",
+   "usd_per_gpu_hour": 3.46,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-03",
+   "usd_per_gpu_hour": 3.39,
+   "weeks": 5
+  },
+  {
+   "chip": "h200",
+   "month": "2026-04",
+   "usd_per_gpu_hour": 3.39,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-05",
+   "usd_per_gpu_hour": 3.44,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-06",
+   "usd_per_gpu_hour": 3.62,
+   "weeks": 5
+  },
+  {
+   "chip": "h200",
+   "month": "2026-07",
+   "usd_per_gpu_hour": 3.86,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-08",
+   "usd_per_gpu_hour": 4.0,
+   "weeks": 5
+  },
+  {
+   "chip": "h200",
+   "month": "2026-09",
+   "usd_per_gpu_hour": 4.32,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-10",
+   "usd_per_gpu_hour": 4.93,
+   "weeks": 4
+  },
+  {
+   "chip": "h200",
+   "month": "2026-11",
+   "usd_per_gpu_hour": 4.88,
+   "weeks": 4
+  }
+ ]
+}

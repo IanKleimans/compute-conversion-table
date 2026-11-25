@@ -1,0 +1,40 @@
+name: monthly
+
+# On the 2nd of each month: refresh InferenceX output, GetDeploying rent, the headline numbers,
+# and last month's provider field summary.
+on:
+  schedule:
+    - cron: '17 6 2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  monthly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh sources and headline numbers
+        run: python -m grain monthly
+      - name: Summarize last month's probes
+        run: |
+          LAST=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+          python -m grain summarize --month "$LAST" || true
+      - name: Commit results
+        run: |
+          git config user.name "grain-bot"
+          git config user.email "grain-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: monthly refresh $(date -u +%Y-%m)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((i * 10)); done
+          exit 1

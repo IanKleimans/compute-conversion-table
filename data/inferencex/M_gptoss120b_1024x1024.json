@@ -1,0 +1,225 @@
+{
+ "source": "https://inferencex.semianalysis.com/api/v1/benchmarks/history?",
+ "model": "gptoss120b",
+ "min_user_tps": 100,
+ "engine": "vllm",
+ "rows": [
+  {
+   "chip": "b200",
+   "month": "2025-09",
+   "days": 1,
+   "interactive_out_tps": 4113.1,
+   "batch_out_tps": 5652.2,
+   "engine_images": []
+  },
+  {
+   "chip": "b200",
+   "month": "2025-10",
+   "days": 28,
+   "interactive_out_tps": 4099.2,
+   "batch_out_tps": 5634.4,
+   "engine_images": []
+  },
+  {
+   "chip": "b200",
+   "month": "2025-11",
+   "days": 28,
+   "interactive_out_tps": 4150.2,
+   "batch_out_tps": 8027.4,
+   "engine_images": []
+  },
+  {
+   "chip": "b200",
+   "month": "2025-12",
+   "days": 11,
+   "interactive_out_tps": 6505.2,
+   "batch_out_tps": 8602.9,
+   "engine_images": [
+    "vllm/vllm-openai:v0.11.2"
+   ]
+  },
+  {
+   "chip": "b200",
+   "month": "2026-01",
+   "days": 1,
+   "interactive_out_tps": 6618.4,
+   "batch_out_tps": 8672.5,
+   "engine_images": [
+    "vllm/vllm-openai:v0.13.0"
+   ]
+  },
+  {
+   "chip": "b200",
+   "month": "2026-02",
+   "days": 1,
+   "interactive_out_tps": 6468.6,
+   "batch_out_tps": 9153.9,
+   "engine_images": [
+    "vllm/vllm-openai:v0.15.1"
+   ]
+  },
+  {
+   "chip": "b200",
+   "month": "2026-05",
+   "days": 3,
+   "interactive_out_tps": 7651.5,
+   "batch_out_tps": 9696.3,
+   "engine_images": [
+    "vllm/vllm-openai:v0.20.2",
+    "vllm/vllm-openai:v0.21.0",
+    "vllm/vllm-openai:v0.22.0"
+   ]
+  },
+  {
+   "chip": "h100",
+   "month": "2025-09",
+   "days": 2,
+   "interactive_out_tps": 864.4,
+   "batch_out_tps": 1806.1,
+   "engine_images": []
+  },
+  {
+   "chip": "h100",
+   "month": "2025-10",
+   "days": 29,
+   "interactive_out_tps": 861.8,
+   "batch_out_tps": 1810.7,
+   "engine_images": []
+  },
+  {
+   "chip": "h100",
+   "month": "2025-11",
+   "days": 28,
+   "interactive_out_tps": 985.4,
+   "batch_out_tps": 1964.1,
+   "engine_images": []
+  },
+  {
+   "chip": "h100",
+   "month": "2025-12",
+   "days": 11,
+   "interactive_out_tps": 1040.5,
+   "batch_out_tps": 2015.3,
+   "engine_images": [
+    "vllm/vllm-openai:v0.11.2"
+   ]
+  },
+  {
+   "chip": "h100",
+   "month": "2026-01",
+   "days": 1,
+   "interactive_out_tps": 1047.0,
+   "batch_out_tps": 2056.0,
+   "engine_images": [
+    "vllm/vllm-openai:v0.13.0"
+   ]
+  },
+  {
+   "chip": "h100",
+   "month": "2026-02",
+   "days": 1,
+   "interactive_out_tps": 1573.9,
+   "batch_out_tps": 2069.8,
+   "engine_images": [
+    "vllm/vllm-openai:v0.15.1"
+   ]
+  },
+  {
+   "chip": "h100",
+   "month": "2026-03",
+   "days": 1,
+   "interactive_out_tps": 1587.3,
+   "batch_out_tps": 2085.0,
+   "engine_images": [
+    "vllm/vllm-openai:v0.18.0"
+   ]
+  },
+  {
+   "chip": "h100",
+   "month": "2026-05",
+   "days": 2,
+   "interactive_out_tps": 1572.2,
+   "batch_out_tps": 2071.1,
+   "engine_images": [
+    "vllm/vllm-openai:v0.20.2",
+    "vllm/vllm-openai:v0.21.0"
+   ]
+  },
+  {
+   "chip": "h200",
+   "month": "2025-09",
+   "days": 1,
+   "interactive_out_tps": 1010.3,
+   "batch_out_tps": 2517.9,
+   "engine_images": []
+  },
+  {
+   "chip": "h200",
+   "month": "2025-10",
+   "days": 28,
+   "interactive_out_tps": 1010.1,
+   "batch_out_tps": 2510.1,
+   "engine_images": []
+  },
+  {
+   "chip": "h200",
+   "month": "2025-11",
+   "days": 28,
+   "interactive_out_tps": 1037.5,
+   "batch_out_tps": 2046.4,
+   "engine_images": []
+  },
+  {
+   "chip": "h200",
+   "month": "2025-12",
+   "days": 11,
+   "interactive_out_tps": 1587.5,
+   "batch_out_tps": 2079.3,
+   "engine_images": [
+    "vllm/vllm-openai:v0.11.2"
+   ]
+  },
+  {
+   "chip": "h200",
+   "month": "2026-01",
+   "days": 1,
+   "interactive_out_tps": 1611.2,
+   "batch_out_tps": 2126.7,
+   "engine_images": [
+    "vllm/vllm-openai:v0.13.0"
+   ]
+  },
+  {
+   "chip": "h200",
+   "month": "2026-02",
+   "days": 1,
+   "interactive_out_tps": 1611.5,
+   "batch_out_tps": 2132.4,
+   "engine_images": [
+    "vllm/vllm-openai:v0.15.1"
+   ]
+  },
+  {
+   "chip": "h200",
+   "month": "2026-03",
+   "days": 1,
+   "interactive_out_tps": 1623.8,
+   "batch_out_tps": 2144.0,
+   "engine_images": [
+    "vllm/vllm-openai:v0.18.0"
+   ]
+  },
+  {
+   "chip": "h200",
+   "month": "2026-05",
+   "days": 3,
+   "interactive_out_tps": 1616.8,
+   "batch_out_tps": 2130.9,
+   "engine_images": [
+    "vllm/vllm-openai:v0.20.2",
+    "vllm/vllm-openai:v0.21.0",
+    "vllm/vllm-openai:v0.22.0"
+   ]
+  }
+ ]
+}

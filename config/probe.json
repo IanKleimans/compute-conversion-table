@@ -1,0 +1,14 @@
+{
+  "tasks_per_slot": 10,
+  "slots_utc": [2, 8, 14, 20],
+  "type_cycle": ["T1", "T2", "T1", "T3"],
+  "target_input_tokens": {"T1": 1000, "T2": 16000, "T3": 1500},
+  "max_tokens": {"T1": 1000, "T2": 1000, "T3": 4000},
+  "timeout_s": 180,
+  "max_usd_per_run": 2.0,
+  "interactive": {
+    "max_ttft_s": 2.0,
+    "min_tokens_per_s": {"S": 100, "M": 100, "D": 30}
+  },
+  "accuracy_gate_points": 3
+}

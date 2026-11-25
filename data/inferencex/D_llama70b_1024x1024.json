@@ -1,0 +1,56 @@
+{
+ "source": "https://inferencex.semianalysis.com/api/v1/benchmarks/history?",
+ "model": "llama70b",
+ "min_user_tps": 30,
+ "engine": "vllm",
+ "rows": [
+  {
+   "chip": "b200",
+   "month": "2025-09",
+   "days": 1,
+   "interactive_out_tps": 892.8,
+   "batch_out_tps": 2638.2,
+   "engine_images": []
+  },
+  {
+   "chip": "b200",
+   "month": "2025-10",
+   "days": 27,
+   "interactive_out_tps": 1587.1,
+   "batch_out_tps": 2645.7,
+   "engine_images": []
+  },
+  {
+   "chip": "h100",
+   "month": "2025-09",
+   "days": 1,
+   "interactive_out_tps": 510.5,
+   "batch_out_tps": 1060.1,
+   "engine_images": []
+  },
+  {
+   "chip": "h100",
+   "month": "2025-10",
+   "days": 27,
+   "interactive_out_tps": 510.0,
+   "batch_out_tps": 1062.6,
+   "engine_images": []
+  },
+  {
+   "chip": "h200",
+   "month": "2025-09",
+   "days": 1,
+   "interactive_out_tps": 597.2,
+   "batch_out_tps": 1632.8,
+   "engine_images": []
+  },
+  {
+   "chip": "h200",
+   "month": "2025-10",
+   "days": 25,
+   "interactive_out_tps": 598.2,
+   "batch_out_tps": 1631.5,
+   "engine_images": []
+  }
+ ]
+}

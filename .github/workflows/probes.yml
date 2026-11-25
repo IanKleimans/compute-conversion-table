@@ -1,0 +1,46 @@
+name: probes
+
+# Four probe slots a day (UTC), plus a daily list-price snapshot on the first run of the day.
+on:
+  schedule:
+    - cron: '0 2,8,14,20 * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Slot hour to record (2, 8, 14 or 20); blank = nearest to now'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Snapshot list prices (once a day)
+        run: python -m grain prices --once-per-day
+      - name: Run probe slot
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GRAIN_PRIVATE_SEED: ${{ secrets.GRAIN_PRIVATE_SEED }}
+          SLOT: ${{ github.event.inputs.slot }}
+        run: |
+          if [ -n "$SLOT" ]; then python -m grain probe --slot "$SLOT"; else python -m grain probe; fi
+      - name: Commit results
+        run: |
+          git config user.name "grain-bot"
+          git config user.email "grain-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: probes $(date -u +%Y-%m-%dT%H:00Z)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((i * 10)); done
+          exit 1

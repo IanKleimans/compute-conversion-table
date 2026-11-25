@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "note": "Provider slugs are OpenRouter provider names (the part before '/' in an endpoint tag). Check them against `python -m grain prices` output before changing.",
+  "models": [
+    {
+      "code": "S",
+      "name": "Llama 3.1 8B Instruct",
+      "openrouter": "meta-llama/llama-3.1-8b-instruct",
+      "inferencex": null,
+      "reasoning": null,
+      "providers": ["deepinfra", "groq", "amazon-bedrock", "coreweave"]
+    },
+    {
+      "code": "M",
+      "name": "gpt-oss-120b",
+      "openrouter": "openai/gpt-oss-120b",
+      "inferencex": "gptoss120b",
+      "inferencex_precision": "fp4",
+      "list_price_fallback": {"in_per_m": 0.15, "out_per_m": 0.60},
+      "reasoning": {"effort": "low"},
+      "providers": ["together", "fireworks", "groq", "deepinfra", "nebius", "coreweave"]
+    },
+    {
+      "code": "D",
+      "name": "Llama 3.3 70B Instruct",
+      "openrouter": "meta-llama/llama-3.3-70b-instruct",
+      "inferencex": "llama70b",
+      "inferencex_precision": "fp8",
+      "list_price_fallback": {"in_per_m": 0.59, "out_per_m": 0.79},
+      "reasoning": null,
+      "providers": ["deepinfra", "groq", "parasail", "coreweave", "amazon-bedrock"]
+    }
+  ]
+}
