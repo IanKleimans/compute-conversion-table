@@ -39,8 +39,8 @@ def cmd_prices(args) -> int:
 def cmd_probe(args) -> int:
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
-        print("OPENROUTER_API_KEY is not set", file=sys.stderr)
-        return 2
+        print("OPENROUTER_API_KEY is not set; probes skipped", file=sys.stderr)
+        return 0 if args.skip_without_key else 2
     probe_cfg = load_json(CONFIG / "probe.json")
     now = dt.datetime.now(dt.timezone.utc)
     day = dt.date.fromisoformat(args.date) if args.date else now.date()
@@ -130,7 +130,10 @@ def main(argv: list[str] | None = None) -> int:
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("prices"); p.add_argument("--once-per-day", action="store_true"); p.set_defaults(fn=cmd_prices)
-    p = sub.add_parser("probe"); p.add_argument("--slot", type=int); p.add_argument("--date"); p.set_defaults(fn=cmd_probe)
+    p = sub.add_parser("probe"); p.add_argument("--slot", type=int); p.add_argument("--date")
+    p.add_argument("--skip-without-key", action="store_true",
+                   help="exit quietly when no API key is set (used by the scheduled workflow)")
+    p.set_defaults(fn=cmd_probe)
     for name, fn in (("inferencex", cmd_inferencex), ("monthly", cmd_monthly)):
         p = sub.add_parser(name)
         p.add_argument("--min-user-tps", type=float, default=None,

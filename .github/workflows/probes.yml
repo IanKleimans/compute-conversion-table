@@ -34,7 +34,9 @@ jobs:
           GRAIN_PRIVATE_SEED: ${{ secrets.GRAIN_PRIVATE_SEED }}
           SLOT: ${{ github.event.inputs.slot }}
         run: |
-          if [ -n "$SLOT" ]; then python -m grain probe --slot "$SLOT"; else python -m grain probe; fi
+          # Without the OPENROUTER_API_KEY secret, probes are skipped and only prices are saved.
+          if [ -n "$SLOT" ]; then python -m grain probe --skip-without-key --slot "$SLOT"
+          else python -m grain probe --skip-without-key; fi
       - name: Commit results
         run: |
           git config user.name "grain-bot"
