@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-27",
+ "models": {
+  "D": {
+   "endpoints": [
+    {
+     "context_length": 131072,
+     "in_per_m": 0.1,
+     "out_per_m": 0.32,
+     "provider": "DeepInfra",
+     "quantization": "fp8",
+     "status": -5,
+     "tag": "deepinfra/turbo",
+     "uptime_last_30m": 18.181818181818183
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.22,
+     "out_per_m": 0.5,
+     "provider": "Parasail",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "parasail/fp8",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.2,
+     "out_per_m": 0.52,
+     "provider": "AkashML",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "akashml/fp8",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 128000,
+     "in_per_m": 0.71,
+     "out_per_m": 0.71,
+     "provider": "CoreWeave",
+     "quantization": "fp16",
+     "status": 0,
+     "tag": "coreweave/fp16",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.72,
+     "out_per_m": 0.72,
+     "provider": "Amazon Bedrock",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "amazon-bedrock/us-east-1",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.59,
+     "out_per_m": 0.79,
+     "provider": "Groq",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "groq",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 24000,
+     "in_per_m": 0.293,
+     "out_per_m": 2.253,
+     "provider": "Cloudflare",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "cloudflare/fp8",
+     "uptime_last_30m": 100
+    }
+   ],
+   "slug": "meta-llama/llama-3.3-70b-instruct"
+  },
+  "M": {
+   "endpoints": [
+    {
+     "context_length": 131072,
+     "in_per_m": 0.03,
+     "out_per_m": 0.15,
+     "provider": "Near AI",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "near-ai/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 128000,
+     "in_per_m": 0.03,
+     "out_per_m": 0.15,
+     "provider": "Venice",
+     "quantization": "int4",
+     "status": 0,
+     "tag": "venice/int4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.03,
+     "out_per_m": 0.17,
+     "provider": "CoreWeave",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "coreweave/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.037,
+     "out_per_m": 0.17,
+     "provider": "DeepInfra",
+     "quantization": "bf16",
+     "status": 0,
+     "tag": "deepinfra/bf16",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.03,
+     "out_per_m": 0.187,
+     "provider": "AkashML",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "akashml/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.05,
+     "out_per_m": 0.25,
+     "provider": "Crusoe",
+     "quantization": "bf16",
+     "status": 0,
+     "tag": "crusoe/bf16",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.09,
+     "out_per_m": 0.36,
+     "provider": "Google",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "google-vertex/global",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.085,
+     "out_per_m": 0.375,
+     "provider": "Mancer 2",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "mancer/fp8",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 128000,
+     "in_per_m": 0.06,
+     "out_per_m": 0.42,
+     "provider": "DigitalOcean",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "digitalocean",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 128072,
+     "in_per_m": 0.1,
+     "out_per_m": 0.5,
+     "provider": "BaseTen",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "baseten/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 128072,
+     "in_per_m": 0.1,
+     "out_per_m": 0.5,
+     "provider": "BaseTen",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "baseten/fp4/us",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Amazon Bedrock",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "amazon-bedrock",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Amazon Bedrock",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "amazon-bedrock/eu-west-1",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Fireworks",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "fireworks",
+     "uptime_last_30m": null
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Groq",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "groq",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Nebius",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "nebius/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "SiliconFlow",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "siliconflow/fp8",
+     "uptime_last_30m": null
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.6,
+     "provider": "Together",
+     "quantization": "unknown",
+     "status": -2,
+     "tag": "together",
+     "uptime_last_30m": 93.33333333333333
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.319,
+     "out_per_m": 0.684,
+     "provider": "PrimeIntellect",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "primeintellect/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.35,
+     "out_per_m": 0.75,
+     "provider": "Cerebras",
+     "quantization": "fp16",
+     "status": 0,
+     "tag": "cerebras/fp16",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.15,
+     "out_per_m": 0.75,
+     "provider": "Parasail",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "parasail/fast",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.1,
+     "out_per_m": 0.75,
+     "provider": "Parasail",
+     "quantization": "fp4",
+     "status": 0,
+     "tag": "parasail/fp4",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.14,
+     "out_per_m": 0.95,
+     "provider": "SambaNova",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "sambanova",
+     "uptime_last_30m": 100
+    }
+   ],
+   "slug": "openai/gpt-oss-120b"
+  },
+  "S": {
+   "endpoints": [
+    {
+     "context_length": 131072,
+     "in_per_m": 0.02,
+     "out_per_m": 0.04,
+     "provider": "DeepInfra",
+     "quantization": "fp8",
+     "status": 0,
+     "tag": "deepinfra/fp8",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.05,
+     "out_per_m": 0.08,
+     "provider": "Groq",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "groq",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.22,
+     "out_per_m": 0.22,
+     "provider": "Amazon Bedrock",
+     "quantization": "unknown",
+     "status": 0,
+     "tag": "amazon-bedrock/us-east-1",
+     "uptime_last_30m": 100
+    },
+    {
+     "context_length": 131072,
+     "in_per_m": 0.22,
+     "out_per_m": 0.22,
+     "provider": "CoreWeave",
+     "quantization": "bf16",
+     "status": 0,
+     "tag": "coreweave/bf16",
+     "uptime_last_30m": 100
+    }
+   ],
+   "slug": "meta-llama/llama-3.1-8b-instruct"
+  }
+ },
+ "source": "openrouter.ai endpoints API"
+}
